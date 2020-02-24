@@ -1,0 +1,90 @@
+
+body{
+    background-color: blue;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+    /*Same as above */
+    /* font: normal 20px; Arial, Helvetica, sans-serif; */
+
+#navbar {
+    background-color: purple;
+}
+#navbar ul{
+    padding:20px;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    
+    color: orangered;
+    /*background-color: pink;*/
+    text-decoration: none;
+    font-size: 18;
+    padding: 20px;
+    /*padding-right: 15px;*/
+}
+.main-section{
+    background-color: cyan;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+       
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+
+.wrapper {
+    width: 920px;
+    height: 900px;
+    margin: auto;
+    background-color: green;
+}
+
+.about_me{
+    float:left;
+    width:400px;
+    margin: 0px 30px 0px 0px;
+    padding:0 0 0 50px;
+    box-sizing: border-box;
+    color: gold;
+    background-color: gray;
+    
+}
+.technical_background{
+    float: right;
+    width: 400px;
+    margin: 0px 0px 0px 30px;
+    padding:0px 50px 0px 0px;
+    box-sizing: border-box;
+    color: hotpink;
+    background-color: white;
+    text-align: right;
+}
+#table_one{
+    position: absolute;
+
+    background-color: yellow; 
+    margin: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main-footer{
+    position: static;
+    text-align: center;
+    
+}
+
